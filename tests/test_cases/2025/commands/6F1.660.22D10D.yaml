@@ -1,0 +1,22 @@
+command_id: 6F1.660.22D10D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    660F1100B62D10D0000
+    660F1216DEC00006DEC
+  expected_values:
+    X7_ODO: 28140
+    X7_ODO_ALT: 28140
+- response: |-
+    660F1100B62D10D0000
+    660F1216DEF00006DEF
+  expected_values:
+    X7_ODO: 28143
+    X7_ODO_ALT: 28143
+- response: |-
+    660F1100B62D10D0000
+    660F1216DF000006DF0
+  expected_values:
+    X7_ODO: 28144
+    X7_ODO_ALT: 28144

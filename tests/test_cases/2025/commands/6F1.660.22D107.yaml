@@ -1,0 +1,13 @@
+command_id: 6F1.660.22D107
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: 660F10562D1070000
+  expected_values:
+    X7_VSS: 0
+- response: 660F10562D10701FA
+  expected_values:
+    X7_VSS: 50.6
+- response: 660F10562D1070405
+  expected_values:
+    X7_VSS: 102.9

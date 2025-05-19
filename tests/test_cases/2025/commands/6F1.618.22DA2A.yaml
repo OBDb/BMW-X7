@@ -1,0 +1,46 @@
+command_id: 6F1.618.22DA2A
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    618F1100762DA2A0263
+    618F1210074
+  expected_values:
+    X7_TQ_CNVRT_RPM: 611
+    X7_TRANS_SHAFT_RPM: 116
+- response: |-
+    618F1100762DA2A0294
+    618F1210000
+  expected_values:
+    X7_TQ_CNVRT_RPM: 660
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A0296
+    618F1210000
+  expected_values:
+    X7_TQ_CNVRT_RPM: 662
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A0299
+    618F1210000
+  expected_values:
+    X7_TQ_CNVRT_RPM: 665
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A029C
+    618F1210000
+  expected_values:
+    X7_TQ_CNVRT_RPM: 668
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A0576
+    618F1210889
+  expected_values:
+    X7_TQ_CNVRT_RPM: 1398
+    X7_TRANS_SHAFT_RPM: 2185
+- response: |-
+    618F1100762DA2A07DE
+    618F121039F
+  expected_values:
+    X7_TQ_CNVRT_RPM: 2014
+    X7_TRANS_SHAFT_RPM: 927
