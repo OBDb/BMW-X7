@@ -7,4 +7,4 @@ test_cases:
     X7_GEAR: null
 - response: 618F10562DA2E0303
   expected_values:
-    X7_GEAR: null
+    X7_GEAR: DRIVE
