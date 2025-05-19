@@ -30,12 +30,15 @@
   ]},
 { "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "dbgfilter": { "to": 2024 },
   "signals": [
-    {"id": "X7_GEAR", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+    {"id": "X7_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "PARK" },
           "1": { "description": "Reverse", "value": "REVERSE" },
           "2": { "description": "Neutral", "value": "NEUTRAL" },
-          "3": { "description": "Drive",   "value": "DRIVE" },
-          "5": { "description": "Sport",   "value": "SPORT" }
+          "3": { "description": "Drive",   "value": "DRIVE" }
+        }}
+    },
+    {"id": "X7_GEAR", "path": "Transmission", "name": "Shift gear", "fmt": {"bix": 8, "len": 8, "map": {
+          "5": { "description": "Sport", "value": "SPORT" }
         }}
     }
   ]},
