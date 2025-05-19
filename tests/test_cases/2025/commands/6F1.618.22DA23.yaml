@@ -1,0 +1,9 @@
+command_id: 6F1.618.22DA23
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    618F1100762DA230000
+    618F1210DBD
+  expected_values:
+    X7_ODO_LOWRES: 28136

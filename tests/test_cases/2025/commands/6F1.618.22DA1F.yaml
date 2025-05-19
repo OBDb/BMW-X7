@@ -1,0 +1,7 @@
+command_id: 6F1.618.22DA1F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: 618F10562DA1F0000
+  expected_values:
+    X7_KICKDOWN: 0
