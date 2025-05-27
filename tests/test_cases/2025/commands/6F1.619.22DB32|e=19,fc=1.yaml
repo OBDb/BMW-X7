@@ -1,6 +1,4 @@
-command_id: 6F1.619.22DB32
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.619.22DB32|e=19,fc=1
 test_cases:
 - response: |-
     619F1100B62DB32001D
