@@ -1,6 +1,4 @@
-command_id: 6F1.660.22D107
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
 - response: 660F10562D1070000
   expected_values:
