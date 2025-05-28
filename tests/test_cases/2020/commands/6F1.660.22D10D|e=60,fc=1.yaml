@@ -6,3 +6,15 @@ test_cases:
   expected_values:
     X7_ODO: 106347
     X7_ODO_ALT: 106347
+- response: |-
+    660F1100B62D10D0002
+    660F121B62F0002B62F
+  expected_values:
+    X7_ODO: 177711
+    X7_ODO_ALT: 177711
+- response: |-
+    660F1100B62D10D0002
+    660F121B6300002B630
+  expected_values:
+    X7_ODO: 177712
+    X7_ODO_ALT: 177712

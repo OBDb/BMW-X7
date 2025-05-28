@@ -13,6 +13,12 @@ test_cases:
     X7_TQ_CNVRT_RPM: 28
     X7_TRANS_SHAFT_RPM: 0
 - response: |-
+    618F1100762DA2A002E
+    618F121000BFFFFFFFF
+  expected_values:
+    X7_TQ_CNVRT_RPM: 46
+    X7_TRANS_SHAFT_RPM: 11
+- response: |-
     618F1100762DA2A0292
     618F1210000FFFFFFFF
   expected_values:
@@ -24,3 +30,33 @@ test_cases:
   expected_values:
     X7_TQ_CNVRT_RPM: 706
     X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A02EF
+    618F1210000FFFFFFFF
+  expected_values:
+    X7_TQ_CNVRT_RPM: 751
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A02FB
+    618F1210000FFFFFFFF
+  expected_values:
+    X7_TQ_CNVRT_RPM: 763
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A02FC
+    618F1210000FFFFFFFF
+  expected_values:
+    X7_TQ_CNVRT_RPM: 764
+    X7_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A041E
+    618F121013AFFFFFFFF
+  expected_values:
+    X7_TQ_CNVRT_RPM: 1054
+    X7_TRANS_SHAFT_RPM: 314
+- response: |-
+    618F1100762DA2A0620
+    618F12101D1FFFFFFFF
+  expected_values:
+    X7_TQ_CNVRT_RPM: 1568
+    X7_TRANS_SHAFT_RPM: 465
