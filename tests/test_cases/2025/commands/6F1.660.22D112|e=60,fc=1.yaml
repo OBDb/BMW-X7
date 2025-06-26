@@ -1,14 +1,14 @@
 command_id: 6F1.660.22D112|e=60,fc=1
 test_cases:
-- response: 660F10562D112707A
-  expected_values:
+- expected_values:
     X7_AAT: 16
-- response: 660F10562D1127777
-  expected_values:
+  response: 660F10562D112707A
+- expected_values:
     X7_AAT: 19.5
-- response: 660F10562D1127785
-  expected_values:
+  response: 660F10562D1127777
+- expected_values:
     X7_AAT: 19.5
-- response: 660F10562D1127E7F
-  expected_values:
+  response: 660F10562D1127785
+- expected_values:
     X7_AAT: 23
+  response: 660F10562D1127E7F

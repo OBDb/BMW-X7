@@ -1,17 +1,32 @@
 command_id: 6F1.618.22DA23|e=18,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    X7_ODO_LOWRES: 106336
+  response: |-
     618F1100762DA230000
     618F12133ECFFFFFFFF
-  expected_values:
-    X7_ODO_LOWRES: 106336
-- response: |-
+- expected_values:
+    X7_ODO_LOWRES: 107224
+  response: |-
+    618F1100762DA230000
+    618F121345BFFFFFFFF
+- expected_values:
+    X7_ODO_LOWRES: 107304
+  response: |-
+    618F1100762DA230000
+    618F1213465FFFFFFFF
+- expected_values:
+    X7_ODO_LOWRES: 107344
+  response: |-
+    618F1100762DA230000
+    618F121346AFFFFFFFF
+- expected_values:
+    X7_ODO_LOWRES: 177688
+  response: |-
     618F1100762DA230000
     618F12156C3FFFFFFFF
-  expected_values:
-    X7_ODO_LOWRES: 177688
-- response: |-
+- expected_values:
+    X7_ODO_LOWRES: 177696
+  response: |-
     618F1100762DA230000
     618F12156C4FFFFFFFF
-  expected_values:
-    X7_ODO_LOWRES: 177696
