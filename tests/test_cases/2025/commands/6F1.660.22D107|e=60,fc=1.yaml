@@ -1,11 +1,11 @@
 command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
-- response: 660F10562D1070000
-  expected_values:
+- expected_values:
     X7_VSS: 0
-- response: 660F10562D10701FA
-  expected_values:
+  response: 660F10562D1070000
+- expected_values:
     X7_VSS: 50.6
-- response: 660F10562D1070405
-  expected_values:
+  response: 660F10562D10701FA
+- expected_values:
     X7_VSS: 102.9
+  response: 660F10562D1070405
