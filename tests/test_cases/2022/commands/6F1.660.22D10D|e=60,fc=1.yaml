@@ -1,0 +1,20 @@
+command_id: 6F1.660.22D10D|e=60,fc=1
+test_cases:
+- expected_values:
+    X7_ODO: 29236
+    X7_ODO_ALT: 29236
+  response: |-
+    660F1100B62D10D0000
+    660F121723400007234
+- expected_values:
+    X7_ODO: 29237
+    X7_ODO_ALT: 29237
+  response: |-
+    660F1100B62D10D0000
+    660F121723500007235
+- expected_values:
+    X7_ODO: 29242
+    X7_ODO_ALT: 29242
+  response: |-
+    660F1100B62D10D0000
+    660F121723A0000723A

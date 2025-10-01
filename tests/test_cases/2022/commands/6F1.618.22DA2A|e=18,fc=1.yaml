@@ -1,0 +1,20 @@
+command_id: 6F1.618.22DA2A|e=18,fc=1
+test_cases:
+- expected_values:
+    X7_TQ_CNVRT_RPM: 0
+    X7_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A0000
+    618F1210000FFFFFFFF
+- expected_values:
+    X7_TQ_CNVRT_RPM: 761
+    X7_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A02F9
+    618F1210000FFFFFFFF
+- expected_values:
+    X7_TQ_CNVRT_RPM: 845
+    X7_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A034D
+    618F1210000FFFFFFFF
