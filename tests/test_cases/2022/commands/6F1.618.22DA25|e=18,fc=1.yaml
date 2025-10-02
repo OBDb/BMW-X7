@@ -4,6 +4,9 @@ test_cases:
     X7_EOT: 54
   response: 618F10562DA250066
 - expected_values:
+    X7_EOT: 58
+  response: 618F10562DA25006A
+- expected_values:
     X7_EOT: 108
   response: 618F10562DA25009C
 - expected_values:
