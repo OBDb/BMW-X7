@@ -25,6 +25,12 @@ test_cases:
     618F1100762DA2A034D
     618F1210000FFFFFFFF
 - expected_values:
+    X7_TQ_CNVRT_RPM: 1164
+    X7_TRANS_SHAFT_RPM: 347
+  response: |-
+    618F1100762DA2A048C
+    618F121015BFFFFFFFF
+- expected_values:
     X7_TQ_CNVRT_RPM: 1321
     X7_TRANS_SHAFT_RPM: 393
   response: |-
