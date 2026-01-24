@@ -2,6 +2,10 @@
 
 This repository contains signal set configurations for the BMW X7, organized by model year and version. The files are structured to allow for easy differentiation between model generations and other vehicle parameters, ensuring accurate signal mapping for each version of the BMW X7.
 
+## Overview
+
+The BMW X7 is a full-size luxury crossover sport utility vehicle manufactured by BMW. It is BMW's flagship SUV model, representing the largest and second most expensive SUV in the BMW lineup. The vehicle features three rows of seating as standard (configured for up to seven passengers) and combines German engineering with luxury appointments and advanced technology.
+
 ## Contributing
 
 Contributions are welcome! If you would like to add support for additional model years or other configurations, please open an issue or submit a pull request.
