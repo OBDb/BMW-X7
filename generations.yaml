@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/BMW_X7"
+
 generations:
   - name: "First Generation (G07)"
     start_year: 2018
