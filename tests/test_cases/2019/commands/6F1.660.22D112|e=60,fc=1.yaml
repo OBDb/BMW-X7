@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X7_AAT: 19
   response: 660F10562D1127677
+- expected_values:
+    X7_AAT: 19
+  response: 660F10562D1127678
