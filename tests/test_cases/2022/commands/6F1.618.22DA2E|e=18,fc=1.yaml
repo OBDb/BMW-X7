@@ -15,10 +15,13 @@ test_cases:
   response: 618F10562DA2E0303
 - expected_values:
     X7_GEAR: DRIVE
+    X7_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0403
 - expected_values:
     X7_GEAR: DRIVE
+    X7_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0603
 - expected_values:
     X7_GEAR: DRIVE
+    X7_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0703
